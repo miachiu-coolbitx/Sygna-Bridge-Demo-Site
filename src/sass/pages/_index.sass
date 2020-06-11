@@ -1,0 +1,102 @@
+.container 
+    position: relative
+    width: 100%
+    padding-left: 15px
+    padding-right: 15px
+    margin-right: auto
+    margin-left: auto
+.py-30
+    padding-top: 30px
+    padding-bottom: 30px
+
+table
+    width: calc(100% - 70px)
+    margin: 0 25px
+    border-collapse: collapse
+    tr 
+        border-bottom: 1px solid #C5CEE0
+        th 
+            padding: 12px 8px 16px
+            color: #42826B
+            font-size: 18px
+            line-height: 24px
+            font-family: $font-o
+        th, td 
+            text-align: center
+        th:nth-of-type(2), td:nth-of-type(2)
+            max-width: 140px
+        td 
+            padding: 8px
+        th:first-of-type, td:first-of-type 
+            text-align: left
+        th:last-of-type, td:last-of-type 
+            text-align: right
+        td:first-of-type, td:last-of-type  
+            font-weight: bold
+        td:last-of-type, td:last-of-type span
+            text-align: right
+        td .address
+            display: block
+            word-break: break-word
+            color: #0090CE
+            text-align: left
+        td .score 
+            display: block
+            width: 35px
+            height: 35px
+            margin: 0 auto
+            padding: 5px 0 8px
+            border: 2px solid
+            border-radius: 50%
+            font-weight: bold
+            border-color: $red
+        td .btn 
+            background-color: $red
+
+        &:nth-of-type(3n)
+            td .score 
+                border-color: $sec-color
+            td .btn
+                background-color: $sec-color
+
+        &:nth-of-type(6), &:nth-of-type(13)
+            td .score 
+                border-color: $main-color
+            td .btn
+                background-color: $main-color
+        
+        &:nth-last-of-type(-n+5)
+            filter: blur(3px)
+
+        &:first-of-type
+            filter: blur(0) !important
+
+.mask 
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 336px
+    z-index: 1
+    overflow: hidden
+    &:before 
+        position: absolute
+        top: -5%
+        left: -5%
+        width: 110%
+        height: 110%
+        display: block
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 10%, rgba(0, 0, 0, 1) 100%)
+        background-size: cover
+        content: ""
+        opacity: 0.8
+        z-index: -1
+    .btn
+        position: absolute
+        top: 50%
+        left: 50%
+        padding: 12px 20px
+        font-size: 14px
+        background-color: #0090CE
+        @include translate3d(-50%, -50%, 0)     
+            

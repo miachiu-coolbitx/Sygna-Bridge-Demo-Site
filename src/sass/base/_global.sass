@@ -1,0 +1,40 @@
+*, ::after, ::before 
+  box-sizing: border-box
+
+html, body
+  margin: 0
+  padding: 0
+  -moz-osx-font-smoothings: grayscale
+  -webkit-font-smoothing: antialiased
+  font-size: 12px
+ 
+body 
+  margin: 0
+  font-family: $font-n
+  font-weight: normal
+  font-size: 16px
+  letter-spacing: normal
+  color: $body-color
+
+a 
+  color: $link
+  @include transition(0.5s)
+  &:hover, &:active, &:focus 
+      color: $sec-color
+      outline: none
+      text-decoration: none
+  
+img 
+  max-width: 100%
+  height: auto
+
+p 
+  margin-bottom: 20px
+
+h1, h2, h3, h4, h5, h6 
+  color: $title
+  margin-top: 0
+  margin-bottom: 20px
+  font-weight: bold
+  font-family: $font-o
+
