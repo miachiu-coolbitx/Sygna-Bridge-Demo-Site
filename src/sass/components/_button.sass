@@ -1,26 +1,16 @@
 .btn 
-    min-width: 200px
-    padding: 8px 16px
+    min-width: 100px
+    padding: 5px 8px
+    background-color: $l-gray
+    color: white
     font-size: 12px
-    font-weight: normal
     font-family: $font-o
-    font-weight: 600
-    font-stretch: normal
-    font-style: normal
-    line-height: 1.33
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px
     letter-spacing: normal
     text-align: center
     @include border-radius(4px)
     @include transition(all 0.5s ease-in-out)
-    &:hover, &:active, &:focus 
-        text-decoration: none
     
-
-/* primary: confirm / cta */
-.btn-primary 
-    background-color: $main-color
-    color: white !important
-    &:hover, &:active 
-        color: $sec-color !important
-        background-color: lighten($main-color, 10%) !important
     

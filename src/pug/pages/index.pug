@@ -1,23 +1,115 @@
 extends ../layouts/default-layout.pug
+
+mixin table-row(asset, wallet_address, risk_score, triggered_rules, usd_worth)
+  tr
+    td
+      span.value(data-label="Asset") #{asset}
+    td
+      span.address(data-label="Wallet Address") #{wallet_address}
+    td
+      span.score(data-label="Risk Score") #{risk_score}
+    td
+      span.btn(data-label="Triggered Rules") #{triggered_rules}
+    td
+      span.test(data-label="USD Worth") #{usd_worth}
+
 block content
-  div.container 
-      ul 
-        li 
-          a(href="./registration.html") registration
-        li
-          a(href="./account_manager_return.html") account_manager_return
-        li
-          a(href="./account_manager_delete.html") account_manager_delete
-        li
-          a(href="./create_notification.html") create_notification
-        li
-          a(href="./approver_return.html") approver_return
-        li
-          a(href="./approver_delete.html") approver_delete
-        li
-          a(href="./registration_success.html") registration_success
-        li
-          a(href="./go-live.html") go-lives
-        li
-          a(href="./notify_approver.html") notify_approver
+  div.container.py-30 
+
+      table
+        tr
+          th Asset
+          th Wallet Address
+          th Risk Score
+          th Triggered Rules
+          th USD Worth
+        tbody
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "10","Known Criminal","30.74USD")
+
+            +table-row("ETH",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "9","Known Criminal","12.74USD")
+            
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "6","Gambling","81.92USD")
+
+            +table-row("LTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "9","Known Criminal","9.72USD")
+
+            +table-row("LTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "9","Known Criminal","9.72USD")
+
+            //-  6 
+            +table-row("BTC",
+              "374600000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce13f",
+              "1","Peer-to-Peer Exchange","1,290USD")
+
+            +table-row("BTC",
+              "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce79f",
+              "10","Known Criminal","230.74USD")
+
+            +table-row("BTC",
+              "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce79f",
+              "10","Known Criminal","230.74USD")
+              
+            +table-row("LTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "6","Gambling","67.92USD")
+
+            +table-row("BTC",
+              "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce79f",
+              "10","Known Criminal","230.74USD")
+
+            //-11
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "10","Known Criminal","30.74USD")
+
+            +table-row("LTC",
+              "340237402719d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce44f",
+              "6","Gambling","23.34USD")
+
+            +table-row("ETH",
+              "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce13f",
+              "1","Peer-to-Peer Exchange","12,290USD")
+              
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "10","Known Criminal","30.74USD")
+            
+            +table-row("BTC",
+              "111000270019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce47f",
+              "6","Gambling","23.34USD")
+
+            //- 16
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "10","Known Criminal","30.74USD")
+              
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "10","Known Criminal","30.74USD")
+            
+            +table-row("BTC",
+              "111000270019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce47f",
+              "6","Gambling","23.34USD")
+
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "10","Known Criminal","30.74USD")
+              
+            +table-row("BTC",
+              "363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f",
+              "10","Known Criminal","30.74USD")
+
+      div.mask 
+        a.btn Contact Sygna For More Infomation 
+
+
+
   

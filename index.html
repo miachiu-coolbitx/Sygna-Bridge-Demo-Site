@@ -5,44 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Open+Sans:400,600,700&amp;display=swap">
-    <title>Mail - Sygna Bridge</title>
+    <title>Sygna Bridge Demo Site</title>
     <!-- Styles-->
     <link href="./assets/css/styles.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container_wide">
-      <header id="header">
-        <div class="container">
-          <div class="logo"><a href="https://www.sygna.io/"><img src="./assets/images/logo.png" alt="SYGNA Bridge"></a></div>
-        </div>
-      </header>
-      <div class="container"> 
-        <ul> 
-          <li> <a href="./registration.html">registration</a></li>
-          <li><a href="./account_manager_return.html">account_manager_return</a></li>
-          <li><a href="./account_manager_delete.html">account_manager_delete</a></li>
-          <li><a href="./create_notification.html">create_notification</a></li>
-          <li><a href="./approver_return.html">approver_return</a></li>
-          <li><a href="./approver_delete.html">approver_delete</a></li>
-          <li><a href="./registration_success.html">registration_success</a></li>
-          <li><a href="./go-live.html">go-lives</a></li>
-          <li><a href="./notify_approver.html">notify_approver</a></li>
-        </ul>
+    <header id="header">
+      <div class="container">
+        <div class="logo"><a href="https://www.sygna.io/"><img src="./assets/images/logo.png" alt="SYGNA Bridge"></a></div>
       </div>
-      <footer id="footer">
-        <div class="container">
-          <div class="soc_icons">
-            <ul> 
-              <li><a href="https://www.linkedin.com/company/sygna/" target="_blank" title="LinkedIn"><img src="../assets/images/linkedin.png" alt=""></a></li>
-              <li> <a href="https://twitter.com/Sygna_" target="_blank" title="twitter"><img src="../assets/images/twitter.png" alt=""></a></li>
-              <li> <a href="http://sygna.io/" target="_blank" title="SYGNA Bridge"><img src="../assets/images/sygna-g.png" alt=""></a></li>
-            </ul>
-          </div>
-          <p>8F., No. 176, Changchun Rd., Zhongshan Dist., Taipei City 104, Taiwan (R.O.C.)<br>Powered by Sygna.</p>
-        </div>
-      </footer>
+    </header>
+    <div class="container py-30"> 
+      <table>
+        <tr>
+          <th>Asset</th>
+          <th>Wallet Address</th>
+          <th>Risk Score</th>
+          <th>Triggered Rules</th>
+          <th>USD Worth</th>
+        </tr>
+        <tbody>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">30.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">ETH</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">9</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">12.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">6</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Gambling</span></td>
+            <td><span class="test" data-label="USD Worth">81.92USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">LTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">9</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">9.72USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">LTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">9</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">9.72USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">374600000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce13f</span></td>
+            <td><span class="score" data-label="Risk Score">1</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Peer-to-Peer Exchange</span></td>
+            <td><span class="test" data-label="USD Worth">1,290USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce79f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">230.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce79f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">230.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">LTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">6</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Gambling</span></td>
+            <td><span class="test" data-label="USD Worth">67.92USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce79f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">230.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">30.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">LTC</span></td>
+            <td><span class="address" data-label="Wallet Address">340237402719d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce44f</span></td>
+            <td><span class="score" data-label="Risk Score">6</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Gambling</span></td>
+            <td><span class="test" data-label="USD Worth">23.34USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">ETH</span></td>
+            <td><span class="address" data-label="Wallet Address">000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce13f</span></td>
+            <td><span class="score" data-label="Risk Score">1</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Peer-to-Peer Exchange</span></td>
+            <td><span class="test" data-label="USD Worth">12,290USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">30.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">111000270019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce47f</span></td>
+            <td><span class="score" data-label="Risk Score">6</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Gambling</span></td>
+            <td><span class="test" data-label="USD Worth">23.34USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">30.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">30.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">111000270019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce47f</span></td>
+            <td><span class="score" data-label="Risk Score">6</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Gambling</span></td>
+            <td><span class="test" data-label="USD Worth">23.34USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">30.74USD</span></td>
+          </tr>
+          <tr>
+            <td><span class="value" data-label="Asset">BTC</span></td>
+            <td><span class="address" data-label="Wallet Address">363773377319d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce23f</span></td>
+            <td><span class="score" data-label="Risk Score">10</span></td>
+            <td><span class="btn" data-label="Triggered Rules">Known Criminal</span></td>
+            <td><span class="test" data-label="USD Worth">30.74USD</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="mask"> <a class="btn">Contact Sygna For More Infomation </a></div>
     </div>
-    <!-- Scripts-->
-    <script src="./assets/js/scripts.min.js"></script>
   </body>
 </html>

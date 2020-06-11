@@ -1,0 +1,290 @@
+Last login: Tue Apr 21 18:24:25 on ttys000
+miachiu@miachiu ~ % cd /Users/miachiu/Projects/pug-sass-starter-master 
+miachiu@miachiu pug-sass-starter-master % code .
+miachiu@miachiu pug-sass-starter-master % npm start
+
+> pug-sass-starter@1.0.0 start /Users/miachiu/Projects/pug-sass-starter-master
+> gulp
+
+[09:38:51] Using gulpfile ~/Projects/pug-sass-starter-master/gulpfile.js
+[09:38:51] Starting 'default'...
+[09:38:51] Starting 'watchTask'...
+[09:38:51] Starting 'reload'...
+[09:38:51] Finished 'watchTask' after 12 ms
+[09:38:51] Starting server...
+[09:38:51] Finished 'reload' after 15 ms
+[09:38:51] Finished 'default' after 17 ms
+[09:38:51] Server started http://localhost:8080
+[09:38:51] LiveReload started on port 35729
+[09:38:51] Running server
+[09:41:17] Starting 'styles'...
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+[09:41:17] Finished 'styles' after 79 ms
+[09:41:42] Starting 'myStyle'...
+[09:41:42] Starting 'styles'...
+[09:41:42] Finished 'styles' after 24 ms
+[09:41:42] Finished 'myStyle' after 42 ms
+^C[10:05:14] Server stopped
+miachiu@miachiu pug-sass-starter-master % cd
+miachiu@miachiu ~ % git remote add origin git@github.com:miachiu-coolbitx/sygna_mail_pug_sass.git
+git push -u origin master
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+miachiu@miachiu ~ % cd /Users/miachiu/Documents/Sygna/sygna_mail_pug_sass 
+miachiu@miachiu sygna_mail_pug_sass % git status
+fatal: not a git repository (or any of the parent directories): .git
+miachiu@miachiu sygna_mail_pug_sass % git remote add origin git@github.com:miachiu-coolbitx/sygna_mail_pug_sass.git
+git push -u origin master
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+miachiu@miachiu sygna_mail_pug_sass % add a.
+zsh: command not found: add
+miachiu@miachiu sygna_mail_pug_sass % echo "# sygna_mail_pug_sass" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:miachiu-coolbitx/sygna_mail_pug_sass.git
+git push -u origin master
+
+Initialized empty Git repository in /Users/miachiu/Documents/Sygna/sygna_mail_pug_sass/.git/
+[master (root-commit) 7998d3d] first commit
+ 1 file changed, 70 insertions(+)
+ create mode 100644 README.md
+Warning: Permanently added the RSA host key for IP address '140.82.114.3' to the list of known hosts.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.20 KiB | 1.20 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:miachiu-coolbitx/sygna_mail_pug_sass.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+miachiu@miachiu sygna_mail_pug_sass % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	account_manager_delete.html
+	account_manager_return.html
+	approver_delete.html
+	approver_return.html
+	assets/
+	create_notification.html
+	go-live.html
+	gulpfile.js
+	index.html
+	notify_approver.html
+	package-lock.json
+	package.json
+	registration.html
+	registration_success.html
+	src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+miachiu@miachiu sygna_mail_pug_sass % git remote add origin git@github.com:miachiu-coolbitx/sygna_mail_pug_sass.git
+git push -u origin master
+fatal: remote origin already exists.
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+miachiu@miachiu sygna_mail_pug_sass % add .
+zsh: command not found: add
+miachiu@miachiu sygna_mail_pug_sass % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	account_manager_delete.html
+	account_manager_return.html
+	approver_delete.html
+	approver_return.html
+	assets/
+	create_notification.html
+	go-live.html
+	gulpfile.js
+	index.html
+	notify_approver.html
+	package-lock.json
+	package.json
+	registration.html
+	registration_success.html
+	src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+miachiu@miachiu sygna_mail_pug_sass % git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+miachiu@miachiu sygna_mail_pug_sass % git add .
+miachiu@miachiu sygna_mail_pug_sass % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .gitignore
+	new file:   account_manager_delete.html
+	new file:   account_manager_return.html
+	new file:   approver_delete.html
+	new file:   approver_return.html
+	new file:   assets/css/styles.css
+	new file:   assets/css/styles.min.css
+	new file:   assets/css/styles1.css
+	new file:   assets/css/styles1.min.css
+	new file:   assets/css/styles2.css
+	new file:   assets/css/styles2.min.css
+	new file:   assets/fonts/.gitkeep
+	new file:   assets/icons/.gitkeep
+	new file:   assets/images/.gitkeep
+	new file:   assets/images/linkedin.png
+	new file:   assets/images/logo.png
+	new file:   assets/images/sygna-g.png
+	new file:   assets/images/twitter.png
+	new file:   assets/js/scripts.js
+	new file:   assets/js/scripts.min.js
+	new file:   create_notification.html
+	new file:   go-live.html
+	new file:   gulpfile.js
+	new file:   index.html
+	new file:   notify_approver.html
+	new file:   package-lock.json
+	new file:   package.json
+	new file:   registration.html
+	new file:   registration_success.html
+	new file:   src/.DS_Store
+	new file:   src/js/scripts.js
+	new file:   src/pug/base/base.pug
+	new file:   src/pug/layouts/default-layout.pug
+	new file:   src/pug/layouts/narrow-layout.pug
+	new file:   src/pug/layouts/wide-layout.pug
+	new file:   src/pug/pages/account_manager_delete.pug
+	new file:   src/pug/pages/account_manager_return.pug
+	new file:   src/pug/pages/approver_delete.pug
+	new file:   src/pug/pages/approver_return.pug
+	new file:   src/pug/pages/create_notification.pug
+	new file:   src/pug/pages/go-live.pug
+	new file:   src/pug/pages/index.pug
+	new file:   src/pug/pages/notify_approver.pug
+	new file:   src/pug/pages/registration.pug
+	new file:   src/pug/pages/registration_success.pug
+	new file:   src/pug/partials/contacts.pug
+	new file:   src/pug/partials/contacts2.pug
+	new file:   src/pug/partials/footer.pug
+	new file:   src/pug/partials/header.pug
+	new file:   src/sass/base/_global.sass
+	new file:   src/sass/base/_mixins.sass
+	new file:   src/sass/base/_placeholders.sass
+	new file:   src/sass/base/_variables.sass
+	new file:   src/sass/components/_button.sass
+	new file:   src/sass/components/_components.sass
+	new file:   src/sass/layouts/_footer.sass
+	new file:   src/sass/layouts/_header.sass
+	new file:   src/sass/pages/_index.sass
+	new file:   src/sass/pages/_narrow.sass
+	new file:   src/sass/pages/_wide.sass
+	new file:   src/sass/styles.sass
+	new file:   src/sass/styles1.sass
+	new file:   src/sass/styles2.sass
+	new file:   src/scss/layout/_button.scss
+	new file:   src/scss/layout/_footer.scss
+	new file:   src/scss/layout/_header.scss
+	new file:   src/scss/layout/_link.scss
+	new file:   src/scss/styles.scss
+
+miachiu@miachiu sygna_mail_pug_sass % git commit -m "0422 first version of pug with sass"
+[master 0a8aa42] 0422 first version of pug with sass
+ 68 files changed, 8321 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 account_manager_delete.html
+ create mode 100644 account_manager_return.html
+ create mode 100644 approver_delete.html
+ create mode 100644 approver_return.html
+ create mode 100644 assets/css/styles.css
+ create mode 100644 assets/css/styles.min.css
+ create mode 100644 assets/css/styles1.css
+ create mode 100644 assets/css/styles1.min.css
+ create mode 100644 assets/css/styles2.css
+ create mode 100644 assets/css/styles2.min.css
+ create mode 100644 assets/fonts/.gitkeep
+ create mode 100644 assets/icons/.gitkeep
+ create mode 100644 assets/images/.gitkeep
+ create mode 100644 assets/images/linkedin.png
+ create mode 100644 assets/images/logo.png
+ create mode 100644 assets/images/sygna-g.png
+ create mode 100644 assets/images/twitter.png
+ create mode 100644 assets/js/scripts.js
+ create mode 100644 assets/js/scripts.min.js
+ create mode 100644 create_notification.html
+ create mode 100644 go-live.html
+ create mode 100644 gulpfile.js
+ create mode 100644 index.html
+ create mode 100644 notify_approver.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 registration.html
+ create mode 100644 registration_success.html
+ create mode 100644 src/.DS_Store
+ create mode 100644 src/js/scripts.js
+ create mode 100644 src/pug/base/base.pug
+ create mode 100644 src/pug/layouts/default-layout.pug
+ create mode 100644 src/pug/layouts/narrow-layout.pug
+ create mode 100644 src/pug/layouts/wide-layout.pug
+ create mode 100644 src/pug/pages/account_manager_delete.pug
+ create mode 100644 src/pug/pages/account_manager_return.pug
+ create mode 100644 src/pug/pages/approver_delete.pug
+ create mode 100644 src/pug/pages/approver_return.pug
+ create mode 100644 src/pug/pages/create_notification.pug
+ create mode 100644 src/pug/pages/go-live.pug
+ create mode 100644 src/pug/pages/index.pug
+ create mode 100644 src/pug/pages/notify_approver.pug
+ create mode 100644 src/pug/pages/registration.pug
+ create mode 100644 src/pug/pages/registration_success.pug
+ create mode 100644 src/pug/partials/contacts.pug
+ create mode 100644 src/pug/partials/contacts2.pug
+ create mode 100644 src/pug/partials/footer.pug
+ create mode 100644 src/pug/partials/header.pug
+ create mode 100644 src/sass/base/_global.sass
+ create mode 100644 src/sass/base/_mixins.sass
+ create mode 100644 src/sass/base/_placeholders.sass
+ create mode 100644 src/sass/base/_variables.sass
+ create mode 100644 src/sass/components/_button.sass
+ create mode 100644 src/sass/components/_components.sass
+ create mode 100644 src/sass/layouts/_footer.sass
+ create mode 100644 src/sass/layouts/_header.sass
+ create mode 100644 src/sass/pages/_index.sass
+ create mode 100644 src/sass/pages/_narrow.sass
+ create mode 100644 src/sass/pages/_wide.sass
+ create mode 100644 src/sass/styles.sass
+ create mode 100644 src/sass/styles1.sass
+ create mode 100644 src/sass/styles2.sass
+ create mode 100644 src/scss/layout/_button.scss
+ create mode 100644 src/scss/layout/_footer.scss
+ create mode 100644 src/scss/layout/_header.scss
+ create mode 100644 src/scss/layout/_link.scss
+ create mode 100644 src/scss/styles.scss
+miachiu@miachiu sygna_mail_pug_sass % git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+miachiu@miachiu sygna_mail_pug_sass % git push
+Warning: Permanently added the RSA host key for IP address '140.82.112.3' to the list of known hosts.
+Enumerating objects: 82, done.
+Counting objects: 100% (82/82), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (76/76), done.
+Writing objects: 100% (81/81), 90.38 KiB | 6.02 MiB/s, done.
+Total 81 (delta 23), reused 0 (delta 0)
+remote: Resolving deltas: 100% (23/23), done.
+To github.com:miachiu-coolbitx/sygna_mail_pug_sass.git
+   7998d3d..0a8aa42  master -> master
+miachiu@miachiu sygna_mail_pug_sass % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+miachiu@miachiu sygna_mail_pug_sass % 
